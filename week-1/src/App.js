@@ -1,8 +1,9 @@
 // import React, { useState, useEffect } from "react";
-import TransactionForm from "./components/TransactionForm";
+//import TransactionForm from "./components/TransactionForm";
 import SearchBar from "./components/SearchBar";
 import TransactionTable from "./components/TransactionTable";
 // import { getTransactions, saveTransactions } from './utils/localStorage';
+import './App.css';
 
 
 
@@ -45,7 +46,9 @@ const App = () => {
 
   return (
     <div>
-      <h1>Transaction Tracker</h1>
+      <h1>CENTRAL BANK OF LARRY
+
+      </h1>
       <input
         type="text"
         placeholder="Search transactions"
@@ -79,7 +82,7 @@ const App = () => {
         />
         <button onClick={addTransaction}>Add Transaction</button>
       </div>
-      <table>
+      <table border="1">
         <thead>
           <tr>
             <th>Description</th>
